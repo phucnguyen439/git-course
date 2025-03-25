@@ -1,4 +1,4 @@
-Config username: git config -- global user.name "your_name"
-Config usermail: git config -- global user.email "your_mail_address"
+Config username: git config --global user.name "your_name"
+Config usermail: git config --global user.email "your_mail_address"
 Setup lại name: git config --global user.name "pw-nguyen"
 Lênh commit: git commit -m "message commnit"
