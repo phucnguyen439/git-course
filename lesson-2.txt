@@ -1,0 +1,12 @@
+1. Giải thích các câu lệnh:
+git init: Khởi tạo thư mục được quản lý bởi Git
+git add <file_name>: Thêm 1 file vào vùng staging
+git add .: thêm toàn bộ file vào vùng statging
+git commit -m “message”: commit file đã thêm đến repo
+2.
+a. Tạo 3 file: file1, file2, file3: file nằm trên máy tính chưa được quản lý bởi git
+b. Chạy lệnh: git init: thư mục được quản lý bởi Git -> 3 files (file1, file2, file 3) nằm ở vùng Working Directory
+c. Chạy lệnh: git commit -m”init project” -> báo không có file nào để commit
+d. Chạy lệnh: git add file1 -> file1 được chuyển đến vùng Staging
+e. Chạy lệnh: git commit -m”add file1” -> file1 được chuyển đến Repository
+f. Chạy lệnh: git add file -> báo lỗi do không có tệp tên file
