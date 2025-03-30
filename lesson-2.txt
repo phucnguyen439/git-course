@@ -2,7 +2,7 @@
 git init: Khởi tạo thư mục được quản lý bởi Git
 git add <file_name>: Thêm 1 file vào vùng staging
 git add .: thêm toàn bộ file vào vùng statging
-git commit -m “message”: commit file đã thêm đến repo
+git commit -m “message”: commit file ở vùng staging đến repo
 2.
 a. Tạo 3 file: file1, file2, file3: file nằm trên máy tính chưa được quản lý bởi git
 b. Chạy lệnh: git init: thư mục được quản lý bởi Git -> 3 files (file1, file2, file 3) nằm ở vùng Working Directory
